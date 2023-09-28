@@ -17,8 +17,8 @@ function App() {
 
   return (
     <>
-      <Card props={cardContent} children={Img()}></Card>
-      <CardSimple props={cardContent} />
+      <Card {...cardContent} children={Img()} />
+      <CardSimple {...cardContent} />
     </>
   );
 }
